@@ -58,9 +58,9 @@ Each table reveals a piece of the story. I used a series of JOINs, subqueries, a
 
 ## ✅ Final Outcome
 
-**Murderer:** [Name discovered in query]  
-**Contractor (Mastermind):** [Name discovered in nested query]  
-**Motive:** Hinted in the interview transcripts as a paid hit.
+**Murderer:** Jeremy Bowers 
+**Contractor (Mastermind):** Miranda Priestly  
+**Motive:** As mentioned in the interview transcripts, it was a paid hit. But why Miranda ordered the hit is unknown. There's not enough data to tell why Miranda ordered the hit.
 
 ---
 
