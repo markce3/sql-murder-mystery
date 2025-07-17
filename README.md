@@ -40,19 +40,19 @@ Each table reveals a piece of the story. I used a series of JOINs, subqueries, a
 ### 🗣️ 1. Identify the Crime and Initial Witnesses
 - Queried the `crime_scene_report` table for a murder that occurred on **January 15, 2018** in **SQL City**.
 - Narrowed down two witnesses based on street addresses and names.
-- Referenced `interview` table using `person_id` to get clues.
+- Referenced `interview` table using `person_id` to get more clues.
 
 ### 🧩 2. Analyze the Clues
 - From interview transcripts, uncovered behavioral and timestamp patterns.
 - Investigated a gym log and license plate information to find a suspicious gym-goer.
 
 ### 🎯 3. Pinpoint the Killer
-- Queried `get_fit_now_check_in` and filtered based on membership ID pattern, check-in date, and gold membership status.
+- Queried `get_fit_now_check_in` and filtered based on membership ID, check-in date, and membership status.
 - Matched plate number with `drivers_license` and joined with `person` data to confirm identity.
 
 ### 🕵️ 4. Find the Mastermind
 - A final interview hinted at a mysterious red-haired woman with a Tesla who attended the **SQL Symphony Concert** three times in December.
-- Used nested queries to filter for red-haired females, cross-referenced `facebook_event_checkin`, and confirmed the individual.
+- I used nested queries to filter for red-haired females, cross-referenced `facebook_event_checkin`, and confirmed the individual.
 
 ---
 
@@ -64,11 +64,11 @@ Each table reveals a piece of the story. I used a series of JOINs, subqueries, a
 
 ---
 
-## 📁 Files
+## 📁 Files Included in this repo
 
-- `sql_murder_mystery_solution.sql`: Full query history with comments explaining each step.
+- `sql_murder_mystery.sql`: Full query history with comments explaining each step.
 - `README.md`: Project summary and structure.
-- `schema.png`: Visual diagram of database relationships (if created).
+- `schema.png`: Visual diagram of database relationships.
 
 ---
 
